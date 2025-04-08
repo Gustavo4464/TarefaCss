@@ -1,0 +1,55 @@
+/* Seletor por elemento */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+}
+
+/* Seletor por ID */
+#menu-topo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #004d7a;
+  color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+
+#menu-topo ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+#menu-topo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seletor por classe */
+.bloco {
+  padding: 80px 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.imagem-perfil {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Rodapé fixo */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #004d7a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
